@@ -84,7 +84,6 @@ def detect_face_emotion(image_path, access_token):
     return output_path
 
 if __name__ == "__main__":
-    # 调用函数并传入图片路径、API Key和Secret Key
     image_path = "face/2.jpg"
     access_token="24.7823add1b9bd275279138713786864ea.2592000.1711609417.282335-53715462"
     annotated_image_path = detect_face_emotion(image_path, access_token)
